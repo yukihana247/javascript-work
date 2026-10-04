@@ -1,0 +1,153 @@
+body {
+    background-color: #f7e8ff;
+    font-family: "Yu Gothic", sans-serif;
+    margin: 20px;
+}
+
+.title {
+    text-align: center;
+    background-color: #d8b4e2;
+    padding: 15px;
+    border-radius: 10px;
+    color: #4a2c6e;
+}
+
+header {
+  background-color: #d8b4e2; /* 今使っている紫の背景色 */
+  padding: 20px 0;          /* 上下の余白をつけて見やすく */
+  text-align: center;       /* タイトルを中央に */
+}
+
+nav {
+  display: flex;
+  justify-content: center;  /* 中央に配置 */
+  gap: 50px;                /* ホームとお問い合わせの間を広げる */
+  margin-top: 10px;         /* タイトルとの間に余白 */
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 20px;          /* 文字を大きくして目立たせる */
+  font-weight: bold;        /* 太字で強調 */
+  color: #333;              /* 今の色を維持 */
+}
+
+
+
+.box {
+    text-align: center;
+    background-color: #ffffffcc;
+    padding: 15px;
+    border: 2px solid #d9b3ff;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+img {
+    display: block;
+    margin: 5px auto;
+    border: 4px solid #d9b3ff;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+h2 {
+    text-align: center;
+    color: #6a3bb8;
+}
+
+.skills {
+  display: flex;            /* 横並びにする */
+  justify-content: center;  /* 中央に配置 */
+  gap: 20px;                /* カード同士の間隔 */
+  margin-top: 20px;         /* 上との余白 */
+}
+
+.skill-card {
+  border: 4px solid #d9b3ff;   /* 囲み線 */
+  padding: 15px 20px;       /* 内側の余白 */
+  border-radius: 10px;      /* 角を丸くする */
+  background-color: #fff;   /* 白背景でカードっぽく */
+  font-size: 18px;
+  font-weight: bold;        /* 文字を目立たせる */
+  text-align: center;       /* 中央揃え */
+  width: 180px;             /* カードの幅（調整可） */
+}
+
+.portfolio-images {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+  margin: 0;       /* 余白を消す */
+  padding: 5px;    /* 枠の内側だけ残す */
+}
+
+ul {
+    padding-left: 20px;
+}
+
+.portfolio-images img {
+    margin: 0;        /* 余白を消す */
+    padding: 5px;     /* 枠の内側だけ残す */
+}
+
+.contact-box {
+  text-align: center;        /* 全体を中央寄せ */
+  margin-top: 20px;
+}
+
+.contact-list {
+  list-style: none;          /* 箇条書きの点を消す */
+  padding: 0;
+  margin: 0 auto;
+  width: 300px;              /* 中央に寄せるための幅 */
+}
+
+.contact-list li {
+  margin-bottom: 15px;       /* 項目の間隔 */
+  text-align: left;          /* ラベルと入力欄は左揃えで見やすく */
+}
+
+.contact-list label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #6a3bb8;
+}
+
+.contact-list input,
+.contact-list textarea {
+  width: 100%;               /* 入力欄を揃える */
+  padding: 8px;
+  border: 2px solid #d9b3ff;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #d8b4e2;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #4a2c6e;
+  cursor: pointer;
+}
+
+form {
+  text-align: center;   /* フォーム内の要素を中央寄せ */
+}
+
+footer {
+  text-align: center;   /* フッター内の文字を中央寄せ */
+}
+ul.work-list {
+  text-align: center;
+  display: flex;
+  flex-direction: column; /* ← 縦並びにする */
+  gap: 10px;              /* ← 間隔をあける（任意） */
+  margin-top: 20px;
+}
