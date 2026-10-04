@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>問い合わせ</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>お問い合わせ</h1>
+        <nav>
+                <a href="index.html">ホーム</a>
+                <a href="contact.html">お問い合わせ</a>
+                <a href="work.html">課題</a>
+                <a href="calculate.html">電卓</a>
+                <a href="githubsearch.html">GitHub検索</a>
+        </nav>
+    </header>
+    <main>
+        <section class="contact-form">
+            <h1>GitHubユーザー情報を取得しよう</h1>
+            <input type="text" id="username" placeholder="GitHubのユーザー名を入力">
+            <button id="searchButton">検索</button>
+            <form action="submit.php" method="post">
+            <div id="result"></div>
+            <script src="../start-folder/javascript/githubsearch.js"></script>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 サンプルサイト</p>
+    </footer>
+</body>
+</html>

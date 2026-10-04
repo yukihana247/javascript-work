@@ -151,3 +151,7 @@ ul.work-list {
   gap: 10px;              /* ← 間隔をあける（任意） */
   margin-top: 20px;
 }
+.contact-form {
+  text-align: center;     /* フォーム全体を中央寄せ */
+  margin-top: 20px;
+}
