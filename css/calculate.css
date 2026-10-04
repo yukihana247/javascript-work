@@ -1,0 +1,67 @@
+body {
+    font-family: sans-serif;
+    background: #f7e8ff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #d8b4e2;
+    padding: 15px;
+    color: rgb(11, 11, 11);
+}
+
+header nav a {
+    color: rgb(4, 4, 4);
+    margin-right: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.container {
+    max-width: 500px;
+    margin: 40px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+}
+
+label {
+    font-weight: bold;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 20px;
+    font-size: 16px;
+}
+
+.result-box {
+    margin-top: 20px;
+    padding: 15px;
+    background: #eef;
+    border-radius: 8px;
+}
+.contact-form {
+    max-width: 400px;      /* 入力欄の横幅を狭くする */
+    margin: 40px auto;     /* 左右中央寄せ */
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #ccc;
+    text-align: left;      /* 中の文字は左揃えのまま */
+}
+
+input, select {
+    width: 100%;           /* コンテナ幅に合わせる */
+    padding: 10px;
+    margin: 10px 0 20px;
+    font-size: 16px;
+}
+label {
+    display: block;        /* ブロック要素にすることで中央揃えが効く */
+    text-align: center;    /* 文字を中央に */
+    font-weight: bold;
+    margin-bottom: 5px;
